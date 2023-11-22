@@ -17,7 +17,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->pushButton_7,SIGNAL(clicked()),this,SLOT(digits_numbers()));
     connect(ui->pushButton_8,SIGNAL(clicked()),this,SLOT(digits_numbers()));
     connect(ui->pushButton_9,SIGNAL(clicked()),this,SLOT(digits_numbers()));
-
+    connect(ui->pushButton_plus_and_minus,SIGNAL(clicked()),this,SLOT(operations()));
+    connect(ui->pushButton_persents,SIGNAL(clicked()),this,SLOT(operations()));
 
 }
 
@@ -36,3 +37,31 @@ void MainWindow::digits_numbers()
 
     ui ->label ->setText(new_label);
 }
+
+void MainWindow::on_pushButton_dat_clicked()
+{
+    if (!(ui-> label-> text().contains('.')))
+    ui ->label ->setText(ui ->label->text()+ ".");
+}
+void MainWindow::operations()
+{
+    QPushButton *button = (QPushButton*)sender();
+    double all_numbers;
+    QString new_label;
+
+    if(button->text() == "+/-") {
+        all_numbers = (ui->label->text()).toDouble();
+        all_numbers = all_numbers * -1;
+        new_label = QString::number(all_numbers, 'g', 15);
+
+        ui ->label ->setText(new_label);
+    } else if(button->text() == "%") {
+        all_numbers = (ui->label->text()).toDouble();
+        all_numbers = all_numbers * 0.01;
+        new_label = QString::number(all_numbers, 'g', 15);
+
+        ui ->label ->setText(new_label);
+    }
+}
+
+
