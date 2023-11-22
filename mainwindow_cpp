@@ -24,11 +24,13 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->pushButton_persents,SIGNAL(clicked()),this,SLOT(operations()));
     connect(ui->pushButton_minus,SIGNAL(clicked()),this,SLOT(math_operations()));
     connect(ui->pushButton_plus,SIGNAL(clicked()),this,SLOT(math_operations()));
+    connect(ui->pushButton_devite,SIGNAL(clicked()),this,SLOT(math_operations()));
+    connect(ui->pushButton_times,SIGNAL(clicked()),this,SLOT(math_operations()));
 
     ui ->pushButton_plus->setCheckable(true);
     ui ->pushButton_minus->setCheckable(true);
-
-
+    ui ->pushButton_devite->setCheckable(true);
+    ui ->pushButton_times->setCheckable(true);
 }
 
 
@@ -51,7 +53,7 @@ void MainWindow::digits_numbers()
 void MainWindow::on_pushButton_dat_clicked()
 {
     if (!(ui-> label-> text().contains('.')))
-    ui ->label ->setText(ui ->label->text()+ ".");
+        ui ->label ->setText(ui ->label->text()+ ".");
 }
 void MainWindow::operations()
 {
@@ -111,6 +113,28 @@ void MainWindow::on_pushButton_euql_clicked()
     } else if(ui->pushButton_minus->isChecked()){
         labelNumber = num_first - num_second;
         new_label = QString::number(labelNumber, 'g', 15);
+
+        ui ->label ->setText(new_label);
+        ui->pushButton_minus->setChecked(false);
+    } else if(ui->pushButton_devite->isChecked()){
+        if (num_second==0){
+            ui ->label ->setText("0");
+        } else {
+            labelNumber = num_first / num_second;
+            new_label = QString::number(labelNumber, 'g', 15);
+
+            ui ->label ->setText(new_label);
+        }
+        ui->pushButton_devite->setChecked(false);
+    } else if(ui->pushButton_times->isChecked()){
+        if (num_second==0){
+            ui ->label ->setText("0");
+        } else {
+            labelNumber = num_first * num_second;
+            new_label = QString::number(labelNumber, 'g', 15);
+
+            ui ->label ->setText(new_label);
+        }
+        ui->pushButton_times->setChecked(false);
     }
 }
-
