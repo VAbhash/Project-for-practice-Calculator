@@ -22,6 +22,9 @@ private slots:
     void digits_numbers();
     void on_pushButton_dat_clicked();
     void operations();
+    void on_pushButton_clicked();
+    void on_pushButton_euql_clicked();
+    void math_operations();
 };
 
 #endif // MAINWINDOW_H
