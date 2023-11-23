@@ -80,11 +80,12 @@ void MainWindow::operations()
 
 void MainWindow::on_pushButton_clicked()
 {
+    ui->pushButton_plus->setChecked(false);
+    ui->pushButton_minus->setChecked(false);
+    ui->pushButton_devite->setChecked(false);
+    ui->pushButton_times->setChecked(false);
 
-
-
-
-
+    ui->label->setText("0");
 
 }
 void MainWindow::math_operations()
