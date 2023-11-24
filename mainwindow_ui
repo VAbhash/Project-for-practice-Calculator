@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>245</width>
+    <width>241</width>
     <height>370</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>241</width>
+    <height>370</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>241</width>
+    <height>370</height>
+   </size>
   </property>
   <property name="mouseTracking">
    <bool>false</bool>
@@ -36,8 +48,8 @@
     color: #c45bdc; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 14px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 14px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -55,7 +67,7 @@ QPushButton:pressed {
      <rect>
       <x>0</x>
       <y>10</y>
-      <width>241</width>
+      <width>239</width>
       <height>51</height>
      </rect>
     </property>
@@ -92,8 +104,8 @@ QPushButton:pressed {
     color: #c45bdc; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 14px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 14px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -122,8 +134,8 @@ QPushButton:pressed {
     color: #c45bdc; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 14px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 14px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -150,11 +162,11 @@ QPushButton:pressed {
     background-color: #c95ee2; 
     border: 2px solid #2a2e37; 
     color: #2c303d; 
-    border-radius: 0px; 
+    border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 22px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; /* Додає тінь для створення ефекту об'єму */
+    font-size: 22px;  
+    font-weight: bold;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; 
 }
 
 QPushButton:pressed {
@@ -183,8 +195,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -211,11 +223,11 @@ QPushButton:pressed {
     background-color: #c95ee2; 
     border: 2px solid #2a2e37; 
     color: #2c303d; 
-    border-radius: 0px; 
+    border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 22px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; /* Додає тінь для створення ефекту об'єму */
+    font-size: 22px;  
+    font-weight: bold;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; 
 }
 
 QPushButton:pressed {
@@ -244,8 +256,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -274,8 +286,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -304,8 +316,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -332,11 +344,11 @@ QPushButton:pressed {
     background-color: #c95ee2; 
     border: 2px solid #2a2e37; 
     color: #2c303d; 
-    border-radius: 0px; 
+    border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 22px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; /* Додає тінь для створення ефекту об'єму */
+    font-size: 22px;  
+    font-weight: bold;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; 
 }
 
 QPushButton:pressed {
@@ -365,8 +377,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -395,8 +407,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -425,8 +437,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -453,11 +465,11 @@ QPushButton:pressed {
     background-color: #c95ee2; 
     border: 2px solid #2a2e37; 
     color: #2c303d; 
-    border-radius: 0px; 
+    border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 22px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; /* Додає тінь для створення ефекту об'єму */
+    font-size: 22px;  
+    font-weight: bold;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; 
 }
 
 QPushButton:pressed {
@@ -486,8 +498,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -516,8 +528,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -544,11 +556,11 @@ QPushButton:pressed {
     background-color: #c95ee2; 
     border: 2px solid #2a2e37; 
     color: #2c303d; 
-    border-radius: 0px; 
+    border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 22px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; /* Додає тінь для створення ефекту об'єму */
+    font-size: 22px;  
+    font-weight: bold;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);; 
 }
 
 QPushButton:pressed {
@@ -577,8 +589,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
@@ -607,8 +619,8 @@ QPushButton:pressed {
     color: #aeb3ba; 
     border-radius: 6px; 
     padding: 10px 20px;
-    font-size: 16px;  /* Збільшення розміру тексту */
-    font-weight: bold;  /* Зроблення тексту жирним */
+    font-size: 16px;  
+    font-weight: bold;  
 }
 
 QPushButton:pressed {
