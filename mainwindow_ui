@@ -73,14 +73,14 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-    background-color: #2a2e37; /* Задає колір фону */
+    background-color: #2a2e37; 
     border: 1px solid gray;
-    color: white; /* Задає колір тексту */
-    qproperty-alignment: 'AlignVCenter | AlignRight'; /* Задає вирівнювання */
-    padding-right: 10px; /* Додає відступ з правого боку в тексті (змініть значення відповідно до ваших потреб) */
-    font-size: 18px; /* Збільшує розмір тексту на 18 пікселів */
-    font-weight: bold; /* Робить текст жирним */
-    border-radius: 10px; /* Додає заокруглені кути (змініть значення відповідно до ваших потреб) */
+    color: white; 
+    qproperty-alignment: 'AlignVCenter | AlignRight'; 
+    padding-right: 10px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    border-radius: 10px; 
 }
 </string>
     </property>
