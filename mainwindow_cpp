@@ -42,10 +42,15 @@ MainWindow::~MainWindow()
 void MainWindow::digits_numbers()
 {
     QPushButton *button = (QPushButton*)sender();
+
     double all_numbers;
-    all_numbers = (ui->label->text()+button->text()).toDouble();
     QString new_label;
+    if (ui->label->text().contains(".") && button->text() == "0") {
+        new_label = ui->label->text() + button->text();
+    }else {
+    all_numbers = (ui->label->text()+button->text()).toDouble();
     new_label = QString::number(all_numbers, 'g', 15);
+    }
 
     ui ->label ->setText(new_label);
 }
